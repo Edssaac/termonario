@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <form>
+        <label for="termo">O que é...</label>
+        <input type="text" id="termo" name="termo" placeholder="">
+        <button type="submit" id="pesquisar" name="pesquisar">Pesquisar</button>
+    </form>
+
+    <section>
+        <div id="div--info" class="ocultado">
+            <label for="info">Informações</label>
+            <textarea name="info" id="info" cols="30" rows="10"></textarea>
+        </div>
+        <div id="alert" class="ocultado">
+            <p>Termo não encontrado</p>
+        </div>
+        <button type="button" id="limpar" name="limpar" class="ocultado">Nova Pesquisa</button>
+    </section>
+
+</body>
+
+</html>
