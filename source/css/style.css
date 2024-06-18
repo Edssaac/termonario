@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+    width: 300px;
+    padding: 20px;
+}
+
+form {
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-top: 8px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+#search {
+    background-color: #428d70;
+}
+
+#search:hover {
+    background-color: #2cb27f;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+
+textarea {
+    margin-top: 8px;
+    padding: 8px;
+    width: 100%;
+    resize: none;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#clear {
+    background-color: #e20e0e;
+}
+
+#clear:hover {
+    background-color: #ac1717;
+}
+
+.hidden {
+    display: none;
+}
+
+#alert {
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+}

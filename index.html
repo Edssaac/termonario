@@ -3,29 +3,31 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="source/css/style.css">
+    <script src="source/js/main.js" defer></script>
+
+    <title>Termonário</title>
 </head>
 
 <body>
-
     <form>
-        <label for="termo">O que é...</label>
-        <input type="text" id="termo" name="termo" placeholder="">
-        <button type="submit" id="pesquisar" name="pesquisar">Pesquisar</button>
+        <label for="term">O que é...</label>
+        <input type="text" id="term" name="term" placeholder="">
+        <button type="submit" id="search" name="search">Pesquisar</button>
     </form>
 
     <section>
-        <div id="div--info" class="ocultado">
+        <div id="div--info" class="hidden">
             <label for="info">Informações</label>
             <textarea name="info" id="info" cols="30" rows="10"></textarea>
         </div>
-        <div id="alert" class="ocultado">
+        <div id="alert" class="hidden">
             <p>Termo não encontrado</p>
         </div>
-        <button type="button" id="limpar" name="limpar" class="ocultado">Nova Pesquisa</button>
+        <button type="button" id="clear" name="clear" class="hidden">Nova Pesquisa</button>
     </section>
-
 </body>
 
 </html>

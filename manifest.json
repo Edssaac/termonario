@@ -10,16 +10,16 @@
     "action": {
         "default_popup": "index.html",
         "default_icon": {
-            "16": "/images/termonario16x16.png",
-            "32": "/images/termonario32x32.png",
-            "48": "/images/termonario48x48.png",
-            "128": "/images/termonario128x128.png"
+            "16": "/source/images/termonario16x16.png",
+            "32": "/source/images/termonario32x32.png",
+            "48": "/source/images/termonario48x48.png",
+            "128": "/source/images/termonario128x128.png"
         }
     },
     "icons": {
-        "16": "/images/termonario16x16.png",
-        "32": "/images/termonario32x32.png",
-        "48": "/images/termonario48x48.png",
-        "128": "/images/termonario128x128.png"
+        "16": "/source/images/termonario16x16.png",
+        "32": "/source/images/termonario32x32.png",
+        "48": "/source/images/termonario48x48.png",
+        "128": "/source/images/termonario128x128.png"
     }
 }
